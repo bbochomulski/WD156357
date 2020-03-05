@@ -63,9 +63,41 @@ print(f"Drugi znak: {lancuch[1]}\nOstatni znak: {lancuch[len(lancuch)-1]}")
 print(song.split())
 
 ## zad9
-zmienna1 = "string"
+zmienna1 = "napis"
 zmienna2 = 3.14145234
 zmienna3 = hex(12)
 print(zmienna1)
 print(zmienna2)
 print(zmienna3)
+
+## zad10
+filmy = ["Wladca Pierscieni","Harry Potter", "Interstellar", "Incepcja"]
+filmy.sort()
+print("Lista filmow: ", filmy)
+
+## zad11
+sinus = [0,math.sin(math.pi/6),math.sin(math.pi/4),math.sin(math.pi/3),1]
+cosinus = [1,math.cos(math.pi/6),math.cos(math.pi/4),math.cos(math.pi/3),0]
+tangens = [0,math.tan(math.pi/6),1,math.tan(math.pi/3),"nie istnieje"]
+cotangens = ["nie istnieje",1/(math.tan(math.pi/6)),1,1/(math.tan(math.pi/3)),0]
+print("sin = ",sinus)
+print("cos = ",cosinus)
+print("tg = ",tangens)
+print("ctg = ",cotangens)
+
+## zad12
+zdanie = "Ala ma kota a kot ma Ale"
+zdanie = zdanie.split()
+print(zdanie)
+
+## zad13
+slownik = {
+    'ksywka1' : 'Rafal',
+    'ksywka2' : 'Kacper',
+    'ksywka3' : 'Michal',
+    'ksywka4' : 'Bartek'
+}
+print(slownik['ksywka3'])
+print(slownik['ksywka4'])
+
+## zad14
