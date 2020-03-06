@@ -100,4 +100,28 @@ slownik = {
 print(slownik['ksywka3'])
 print(slownik['ksywka4'])
 
-## zad14
+## zad15
+rzymskie = {
+    'I' : 1,
+    'II' : 2,
+    'III' : 3,
+    'IV' : 4,
+    'V' : 5,
+    'VI' : 6,
+    'VII' : 7,
+    'VIII' : 8,
+    'IX' : 9,
+    'X' : 10
+}
+index = list(rzymskie.keys())
+values = list(rzymskie.values())
+print(f"Index: {index[3]}\nValue: {values[2]}")
+
+## zad16
+dict_gry = {
+    '000001' : 'Gothic',
+    '000002' : 'Gothic II',
+    '000003' : 'Gothic III',
+    '000004' : 'Arcania'
+}
+print(len(dict_gry))
